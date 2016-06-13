@@ -1,0 +1,99 @@
+body,ul,li,h3,input{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+input{
+	outline: medium;
+	border:0;
+}
+*{
+	box-sizing:border-box;
+}
+.nav-list{
+	width: 100%;
+	height:60px;
+	background: #111;
+	text-align: center;
+	line-height: 60px;
+}
+.nav-list input[type=text]{
+	width: 500px;
+	height:40px;
+	border-radius: 5px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.nav-list input[type=button]{
+	width: 100px;
+	height:40px;
+	border-radius: 5px;
+	color:#fff;
+	background: #7ED53D;
+	font-size: 16px;
+}
+.nav-list input[type=button]:last-child{
+	background: #F04D32;
+}
+.now,.com{
+	width: 720px;
+	margin:20px auto;
+	/*border:1px solid #ccc;*/
+}
+header{
+	width: 100%;
+	height:50px;
+	/*background: red;*/
+	line-height: 50px;
+	padding:0 10px;
+}
+header h3{
+	float: left;
+	font-size: 22px;
+	color:#333;
+}
+header .num{
+	float: right;
+	font-size: 22px;
+	color:#7ED53D;
+
+
+}
+.list li{
+	width: 100%;
+	height:50px;
+	background: #eee;
+	margin:10px 0;
+	padding:0 10px;
+	position: relative;
+}
+.list input[type=checkbox]{
+	float: left;
+	width: 26px;
+	height:26px;
+	margin: 12px 12px;
+
+}
+.list input[type=button]{
+	float: right;
+	width: 30px;
+	height:26px;
+	margin-top: 12px;
+	background:#F04D32; 
+	color:#fff;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.list .cont{
+	display: block;
+	line-height: 50px;
+	float: left;
+}
+.list .dd{
+	width: 10px;
+	height:50px;
+	background: #7ED53D;
+	position: absolute;
+	left: 0;
+	border-radius: 0 3px 3px 0;
+}
